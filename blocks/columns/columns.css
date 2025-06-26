@@ -17,8 +17,10 @@
 
 .columns > div > .columns-img-col img {
   display: block;
-max-width : 100px
-max-height: 100px
+
+max-width: 200px;
+  max-height: 200px;
+
 }
 
 @media (width >= 900px) {
