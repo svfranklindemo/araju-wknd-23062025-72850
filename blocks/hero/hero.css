@@ -76,6 +76,11 @@ main .hero-container {
   box-sizing: border-box;
   max-width: var(--med-grid-layout);
   width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .hero .button-container a {
@@ -103,6 +108,7 @@ main .hero-container {
 
 .hero .hero-desc-wrapper .button-container {
   display: inline-block;
+  left: 50%
 }
 
 .hero-container .default-content-wrapper h1,
